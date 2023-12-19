@@ -8,9 +8,7 @@
          run: " ${{github.event_name}}."
       -  name: print os
          run: "${{runner.os}}"
-      - name: Check out repository code action
-        uses: :actions/checkout@v4
-         
+      
    
 
 	
