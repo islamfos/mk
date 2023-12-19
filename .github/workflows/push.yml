@@ -1,0 +1,16 @@
+ name: islam
+ on: push
+ jobs:
+   git-hub_push:
+     runs-on: windows
+     steps:
+      -  name: print event
+         run: " ${{github.event_name}}."
+      -  name: print os
+         run: "${{runner.os}}."
+         uses: :actions/checkout@v4
+         
+   
+
+	
+  
